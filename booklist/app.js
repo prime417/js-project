@@ -58,7 +58,7 @@ UI.prototype.deleteBook = function (target) {
 UI.prototype.clearFields = function () {
   document.getElementById("title").value = '';
   document.getElementById("author").value = '';
-  isbn = document.getElementById("isbn").value = '';
+  document.getElementById("isbn").value = '';
 }
 
 
